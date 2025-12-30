@@ -1,4 +1,4 @@
-package com.TestMethods;
+package com.javamethods;
 
 import java.util.Scanner;
 
