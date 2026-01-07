@@ -1,6 +1,6 @@
 package com.javademomethods;
 
-import java.math.BigDecimal;
+
 import java.util.Scanner;
 
 public class Testmethods01 {
@@ -29,7 +29,9 @@ public class Testmethods01 {
 //		t.getHeight(h);
 		
 //		System.out.println("Enter the Gender : ");
-//		char g = sc.next();
+//		char g = sc.next().charAt(0);
+//		
+//		t.getGender(g);
 		
 //		System.out.println("Enter the Phone Number : ");
 //		long ph = sc.nextLong();
@@ -53,8 +55,10 @@ public class Testmethods01 {
 		
 		System.out.println("Enter the confirmation : ");
 		boolean c = sc.nextBoolean();
-		
+//		
 		t.getConfirmation(c);
+		
+		sc.close();
 		
 	}
 	

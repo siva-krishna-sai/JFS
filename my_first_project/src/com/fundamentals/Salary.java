@@ -13,7 +13,7 @@ public class Salary {
 		s.internet = salary * s.internet;
 		System.out.println("Internet : "+s.internet);
 	}
-	
+
 	void ID() {
 		ID = salary * ID;
 		System.out.println("Insurance deduction : "+ID);
