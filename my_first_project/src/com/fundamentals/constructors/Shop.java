@@ -10,15 +10,16 @@ class customer{
 	}
 	
 	customer(String name,int id){
+	
 		System.out.println("Parameterized constructor");
 	}
 	
 }
 
-class employee extends customer{
+class employee1 extends customer{
 	
 	
-	employee(String name,int id){
+	employee1(String name,int id){
 		super(name,id);
 		System.out.println("Two arg constructor");
 		this.name=name;
@@ -31,7 +32,7 @@ public class Shop {
 	public static void main(String[] args) {
 		System.out.println("main method started");
 		
-		new employee("siva",04);
+		new employee1("siva",04);
 	}
 	
 
