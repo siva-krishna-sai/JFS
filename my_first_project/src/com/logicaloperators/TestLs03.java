@@ -60,6 +60,8 @@ public class TestLs03 {
 		if(carrot>0) System.out.println("carrot : "+carrot +" --> "+carrot*50);
 		System.out.println("------------------");
 		System.out.println("Total  : "+totalbill);
+		
+		sc.close();
 	}
 
 }
