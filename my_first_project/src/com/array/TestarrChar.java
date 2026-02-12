@@ -8,13 +8,13 @@ public class TestarrChar {
 		
 		a[0]='a';
 
-		for (char n : a) {
-			System.out.print(n + " ");
-		}
-		System.out.println();
-		for (int i = 0; i < a.length; i++) {
-			System.out.print(a[i] + " ");
-		}
+//		for (char n : a) {
+//			System.out.print(n + " ");
+//		}
+//		System.out.println();
+//		for (int i = 0; i < a.length; i++) {
+//			System.out.print(a[i] + " ");
+//		}
 		
 		System.out.println(a.toString());
 //		for char we can't print the address or reference of the variable because char is a special case 
