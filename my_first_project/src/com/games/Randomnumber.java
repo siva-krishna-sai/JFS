@@ -37,6 +37,7 @@ public class Randomnumber {
 				n = sc.nextInt();
 			}else {
 				System.out.println("You Lost!");
+				System.out.println("The number is : "+random);
 				break;
 			}
 		}
